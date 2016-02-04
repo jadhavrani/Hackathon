@@ -1,0 +1,27 @@
+{
+  "name": "ChatApp",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "My new Apigee 127 Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.13.3",
+	"socket.io":"1.4.5",
+	"request":""
+  },
+  "devDependencies": {
+    "should": "4.4.x",
+    "supertest": "0.15.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "api": {
+    "name": "ChatApp",
+    "basePath": "/ChatApp",
+    "main": "app.js"
+  }
+}
